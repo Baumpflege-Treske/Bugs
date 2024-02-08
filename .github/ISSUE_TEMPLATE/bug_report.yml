@@ -1,6 +1,5 @@
 name: Fehlermeldung
 description: Erstelle eine Meldung zu einem Fehler
-title: "[Bug]: "
 labels: ["issue", "bug", "open"]
 body:
   - type: textarea
