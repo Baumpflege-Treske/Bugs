@@ -1,14 +1,14 @@
-<p align="center" style="width: 20%;"><img src="https://www.sportflaechenreinigung.de/resource/logo/Logo_v1.20_mTx_gr_tr.png"></p>
+<p align="center" style="width: 20%;"><img src="https://www.Baumpflege-Treske.de/resource/logo/Logo_v1.20_mTx_gr_tr.png"></p>
 
 <p align="center">
-<a href="https://github.com/Treske-Dach-Sportflaechenreinigung/Bugs/issues?q=is%3Aopen+is%3Aissue">
+<a href="https://github.com/Baumpflege-Treske/Bugs/issues?q=is%3Aopen+is%3Aissue">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/Treske-Dach-Sportflaechenreinigung/Bugs">
 </a>
-<a href="https://github.com/Treske-Dach-Sportflaechenreinigung/Bugs/issues?q=is%3Aissue+is%3Aclosed">
+<a href="https://github.com/Baumpflege-Treske/Bugs/issues?q=is%3Aissue+is%3Aclosed">
   <img src="https://img.shields.io/github/issues-closed-raw/Treske-Dach-Sportflaechenreinigung/Bugs.svg?label=Geschlossen" alt="Geschlossene Issues">
 </a>
 <a href="https://www.sportflaechenreinigung.de">
-  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fsportflaechenreinigung.de&up_message=online&down_message=offline">
+  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fbaumpflege-treske.de&up_message=online&down_message=offline">
   <img alt="Uptime Robot ratio (7 days)" src="https://img.shields.io/uptimerobot/ratio/7/m796332766-f1699c730f365d6d8d590fde?style=flat&label=Website%20-%20Uptime%3A&link=https%3A%2F%2Fstats.uptimerobot.com%2FEMz4As1oPR">
 </a>
 </p>
