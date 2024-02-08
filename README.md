@@ -34,7 +34,7 @@ Mehr Informationen zu aktuellen Ereignissen sind auf unserer **Statusseite [stat
 
 ## Sicherheit
 
-Solltest du sicherheitsrelevante Meldungen haben, sende eine E-Mail an [josua.hess@sportflaechenreinigung.de](mailto:josua.hess@sportflaechenreinigung.de) anstatt den Issue Tracker zu nutzen.
+Solltest du sicherheitsrelevante Meldungen haben, sende eine E-Mail an [josua.hess@baumpflege-treske.de](mailto:josua.hess@baumpflege-treske.de) anstatt den Issue Tracker zu nutzen.
 
 ----
 
