@@ -36,7 +36,6 @@ body:
     attributes:
       label: Website Version
       description: Die Version der Website kann auf der Versions Seite (baum-treske.de/version.php) gefunden werden.
-      url: https://baum-treske.de/version.php
       placeholder: z.B. Version-Desk 2.1.3
     validations:
       required: true
