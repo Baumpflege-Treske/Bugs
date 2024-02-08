@@ -1,8 +1,7 @@
 name: Fehlermeldung
 description: Erstelle eine Meldung zu einem Fehler
-labels: [bug]
-assignees:
-  - josuadev
+title: "[Bug]: "
+labels: ["issue", "bug", "open"]
 body:
   - type: textarea
     id: info
