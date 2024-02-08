@@ -1,38 +1,127 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: Fehlermeldung
+description: Erstelle eine Meldung zu einem Fehler
+labels: []
+assignees:
+body:
+  - type: textarea
+    id: info
+    attributes:
+      label: Fehlerbeschreibung
+      description: Eine klare und knappe Beschreibung, um welchen Fehler es sich handelt.
+      placeholder: Sobald ich ... wird mir ein Fehler '...' angezeigt...
+    validations:
+      required: true
 
----
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduktion
+      description: Schritte um den Fehler zu reproduzieren.
+      placeholder: |
+        1. Navigiere zu '...'
+        2. Klicke auf '....'
+    validations:
+      required: true
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Eine Beschreibung des zu erwartenden Verhaltens / Ergebnisses.
+      placeholder: Wenn ich ... sollte...
+    validations:
+      required: true
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+  - type: input
+    id: version
+    attributes:
+      label: Website Version
+      description: Die Version kann am unteren Ende der Seite gefunden werden. (Siehe Version -> baumpflege-treske.de/version.php)
+      placeholder: z.B. Baumpflege-Treske 2.1.3
+    validations:
+      required: true
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+  - type: dropdown
+    id: device
+    attributes:
+      label: Gerät
+      description: Auf welchem Gerät hast du den Fehler bemerkt?
+      multiple: true
+      options:
+        - Desktop
+        - Laptop
+        - Smartphone
+        - Tablet
+        - Smart TV
+        - Chromecast
+        - Apple TV
+        - Fire TV
+        - "* nicht angegeben"
+    validations:
+      required: true
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Betriebssytem
+      description: Welches Betriebssystem verwendest du?
+      multiple: true
+      options:
+        - Windows 10
+        - Windows 11
+        - Windows (anderes)
+        - macOS 11 Big Sur
+        - macOS 12 Monterey
+        - macOS 13 Ventura
+        - macOS (anderes)
+        - Android
+        - iOS / iPadOS
+        - "* nicht angegeben"
+    validations:
+      required: true
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Welchen Browser verwendest du?
+      multiple: true
+      options:
+        - Google Chrome
+        - Firefox
+        - Safari
+        - Brave
+        - Opera
+        - Vivaldi
+        - Microsoft Edge (neu, Chromium)
+        - Microsoft Edge (alt)
+        - Internet Explorer
+        - "* nicht angegeben"
+    validations:
+      required: true
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browserversion
+      description: Die aktuell verwendete Browserversion.
+      placeholder: z.B. 56.1324
+    validations:
+      required: false
 
-**Additional context**
-Add any other context about the problem here.
+  - type: input
+    id: browser_extensions
+    attributes:
+      label: Extensions & Add-Ons
+      description: Hast du Extensions oder Add-Ons installiert?
+      placeholder: z.B. AdBlock Plus, Lastpass, ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: more
+    attributes:
+      label: Weitere Informationen / Screenshots
+      description: Weitere Informationen über das Problem, wenn vorhanden.
+    validations:
+      required: false
