@@ -1,4 +1,4 @@
-<p align="center" style="width: 20%;"><img src="https://www.Baumpflege-Treske.de/resource/logo/Logo_v1.20_mTx_gr_tr.png"></p>
+<p align="center" style="width: 20%;"><img src="https://www.Baumpflege-Treske.de/resource/logo_os.png"></p>
 
 <p align="center">
 <a href="https://github.com/Baumpflege-Treske/Bugs/issues?q=is%3Aopen+is%3Aissue">
